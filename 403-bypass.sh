@@ -58,6 +58,7 @@ payload=$(printf "╭$(printf '%.0s─' $(seq "$((${termwidth} - 2))"))╮\n${cy
 
 # 10,000 payloads
 payload_list=(
+"QPBulkUpload/"
 "TestPaper_BulkUpload/"
 "ProcessingSystem-QPBulk/"
 "UploadServiceQPaper/"
